@@ -77,7 +77,6 @@ describe App do
       #the below css will match any element (input or button)
       #with a type attribute set to submit
       page.find(:css, '[type=submit]').click
-
       expect(page).to have_text(/Name:\s+Byron/i)
       expect(page).to have_text(/Breed:\s+Poodle/i)
       expect(page).to have_text(/Age:\s+9 months/i)
