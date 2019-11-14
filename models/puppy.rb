@@ -6,4 +6,5 @@ class Puppy
     self.breed = breed 
     self.months_old = months_old
   end 
+  
 end 
